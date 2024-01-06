@@ -1,6 +1,6 @@
 import "./index.scss";
 import AppRoutes from "./AppRoutes";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 const App = () => {
   return (

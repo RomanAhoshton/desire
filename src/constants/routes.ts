@@ -1,4 +1,4 @@
 export const HOME="/"
-export const ABOUT="/Blog"
-export const GALLERY="/Gallery"
-export const CONTACT='/Contact'
+export const ABOUT="/desire/About"
+export const GALLERY="/desire/Gallery"
+export const CONTACT='/desire/Contact'
