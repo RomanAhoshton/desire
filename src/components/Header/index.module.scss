@@ -103,6 +103,8 @@
   left: 0;
   top: 0;
   right: 0;
+  max-height: 90px;
+  z-index: 1000;
 
   .link {
     position: relative;
