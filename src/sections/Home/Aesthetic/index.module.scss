@@ -1,0 +1,57 @@
+.aesthetic {
+  position: relative;
+  height: 500px;
+  margin-top: 100px;
+  @media (max-width:768px) {
+    margin-top: 50px;
+    
+  }
+  @media (max-width:425px) {
+    margin-top: 30px;
+    
+  }
+
+  img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 500px;
+    max-height: 100%;
+  }
+
+  .wrapper {
+    padding-top: 100px;
+    position: relative;
+
+    .title {
+      color: #363838;
+      font-family: Montserrat;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 80px;
+      margin-bottom: 10px;
+      @media (max-width:768px) {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        
+      }
+    }
+
+    .subtitle {
+      color: #5a5a5a;
+      font-family: Open Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      margin-top: 22px;
+      max-width: 540px;
+    }
+  }
+}

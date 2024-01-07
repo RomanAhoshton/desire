@@ -2,10 +2,13 @@ import styles from "./index.module.scss";
 
 interface decor {
   height?: number;
+  width?: number;
 }
 
-const Decorline = ({ height }: decor) => {
-  return <div className={styles.decor} style={{ height: height?height:"" }} />;
+const DecorLine = ({ height,width }: decor) => {
+  return (
+    <div className={styles.decor} style={{ height: height ? height : "", width: width ? width:''}} />
+  );
 };
 
-export default Decorline;
+export default DecorLine;

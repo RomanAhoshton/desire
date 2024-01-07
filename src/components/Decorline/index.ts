@@ -1,1 +1,1 @@
-export {default} from './Decorline'
+export {default} from './DecorLine'
