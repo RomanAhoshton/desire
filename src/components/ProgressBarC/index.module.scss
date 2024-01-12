@@ -1,0 +1,30 @@
+.barWrap {
+    margin-bottom: 50px;
+
+    .labels {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .label {
+        margin-bottom: 14px;
+        display: inline-block;
+        color: #363838;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+      }
+
+      .percent {
+        color: #363838;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 23px;
+        display: inline-block;
+        margin-left: auto;
+      }
+    }
+  }

@@ -1,0 +1,23 @@
+.imageCollection{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    @media (max-width:920px) {
+        justify-content: center;
+        align-items:center;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-self: center;
+        
+    }
+
+    div{
+        padding: 20px;
+        img{
+            width: 250px;
+        }
+    }
+  }

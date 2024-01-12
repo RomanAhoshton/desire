@@ -1,8 +1,11 @@
 import styles from "./index.module.scss";
 import { Carousel as CollectionCarousel } from "react-responsive-carousel";
-import { collection } from "../../images";
 
-const CollectionSlider = () => {
+interface CollectionSliderProps {
+  slides: string[];
+}
+
+const CollectionSlider: React.FC<CollectionSliderProps> = ({ slides }) => {
   return (
     <div className={styles.sliderContainer}>
       <CollectionCarousel
@@ -16,7 +19,6 @@ const CollectionSlider = () => {
         renderIndicator={(_onClickHandler, isSelected, index) => (
           <li
             key={index}
-            // onClick={(e) => onClickHandler(e)}
             className={`${styles.customIndicator} ${
               isSelected ? styles.selected : ""
             }`}
@@ -24,9 +26,9 @@ const CollectionSlider = () => {
           />
         )}
       >
-        {collection.map((item) => (
-          <div>
-            <img src={item.col} alt="collection" />
+        {slides.map((item: string, index: number) => (
+          <div key={index}>
+            <img src={item} alt={`collection-${index}`} />
           </div>
         ))}
       </CollectionCarousel>

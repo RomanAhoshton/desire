@@ -21,8 +21,8 @@ const Header = () => {
 
           <nav className={styles.navigation}>
             <ul className={toggleMenu ? styles.activeLinks : styles.menuLinks}>
-              {menuLinks.map((item) => (
-                <li onClick={() => setToggleMenu(false)}>
+              {menuLinks.map((item,index) => (
+                <li onClick={() => setToggleMenu(false)} key={index}>
                   <Link to={item.href} className={location.pathname===item.href?styles.active:styles.link}>{item.name}</Link>
                   {item.logo ? (
                     <Link to={item.href}>

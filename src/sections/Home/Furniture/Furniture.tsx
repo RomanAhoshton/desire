@@ -31,7 +31,7 @@ const Furniture = () => {
             ))}
           </div>
         ) : (
-          <CollectionSlider />
+          <CollectionSlider  slides={collection.map((item)=>item.col)}/>
         )}
       </div>
     </section>
