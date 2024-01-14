@@ -12,6 +12,10 @@ const Header = () => {
   const { width } = useWidth();
   const [toggleMenu, setToggleMenu] = useState(false);
   const location=useLocation()
+  const handleLink = () => {
+    window.scrollTo(0, 0);
+    setToggleMenu(!toggleMenu);
+  };
 
   return (
     <header className={styles.header}>
@@ -22,7 +26,7 @@ const Header = () => {
           <nav className={styles.navigation}>
             <ul className={toggleMenu ? styles.activeLinks : styles.menuLinks}>
               {menuLinks.map((item,index) => (
-                <li onClick={() => setToggleMenu(false)} key={index}>
+                <li onClick={() => handleLink()} key={index}>
                   <Link to={item.href} className={location.pathname===item.href?styles.active:styles.link}>{item.name}</Link>
                   {item.logo ? (
                     <Link to={item.href}>
