@@ -43,6 +43,11 @@ import HomeSlider1 from "../images/HomeSlider1-min.jpg";
 import HomeSlider2 from "../images/HomeSlider2-min.jpg";
 import HomeSlider3 from "../images/HomeSlider3-min.jpg";
 import HomeSlider4 from "../images/HomeSlider4-min.jpg";
+import HomeSlider5 from "../images/HomeSlider5-min.jpg";
+import HomeSlider6 from "../images/HomeSlider6-min.jpg";
+import HomeSlider7 from "../images/HomeSlider7-min.jpg";
+import HomeSlider8 from "../images/HomeSlider8-min.jpg";
+
 
 export const SliderBg = BgSlider;
 export const HomeBanner = BgBanner;
@@ -128,4 +133,9 @@ export const HomeSlides = {
   two: HomeSlider2,
   three: HomeSlider3,
   four: HomeSlider4,
+  five:HomeSlider5,
+  six:HomeSlider6,
+  seven:HomeSlider7,
+  eight:HomeSlider8,
+  
 };

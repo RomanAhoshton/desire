@@ -1,0 +1,13 @@
+.maps {
+  position: relative;
+  width: 100%;
+  .location {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    opacity: 0.8;
+    background: #dfdfdf;
+  }
+}

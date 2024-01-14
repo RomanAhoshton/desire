@@ -1,10 +1,12 @@
 import styles from "./index.module.scss";
-import Location from "../../components/Location";
+import GoogleMaps from "../../components/GoogleMaps";
+import ContactInfo from "../../components/ContactInfo";
 
 const Contact = () => {
   return (
     <div className={styles.contact}>
-      <Location />
+      <GoogleMaps />
+      <ContactInfo />
     </div>
   );
 };

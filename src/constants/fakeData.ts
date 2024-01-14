@@ -1,28 +1,39 @@
 import { v4 as uuid } from "uuid";
-import { chairs, sofa, table,HomeSlides } from "../images";
+import { chairs, sofa, table, HomeSlides } from "../images";
 
 export const HomeSliderData = [
   {
- 
     link: HomeSlides.one,
     id: uuid(),
   },
   {
-   
     link: HomeSlides.two,
     id: uuid(),
   },
   {
-  
     link: HomeSlides.three,
     id: uuid(),
   },
   {
-
     link: HomeSlides.four,
     id: uuid(),
   },
-
+  {
+    link: HomeSlides.five,
+    id: uuid(),
+  },
+  {
+    link: HomeSlides.six,
+    id: uuid(),
+  },
+  {
+    link: HomeSlides.seven,
+    id: uuid(),
+  },
+  {
+    link: HomeSlides.eight,
+    id: uuid(),
+  },
 ];
 
 export const Goods = [

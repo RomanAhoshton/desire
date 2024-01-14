@@ -108,3 +108,26 @@ export const filteringButton = [
   { type: "Table" },
   { type: "All" },
 ];
+
+export const contactSocial = [
+  {
+    image: footerFacebook,
+    href: "/",
+  },
+  {
+    image: footerInstagram,
+    href: "/",
+  },
+  {
+    image: footerPinterest,
+    href: "/",
+  },
+  {
+    image: footerWhatsApp,
+    href: "/",
+  },
+  {
+    image: footerYoutube,
+    href: "/",
+  },
+];
