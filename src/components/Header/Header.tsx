@@ -14,7 +14,7 @@ const Header = () => {
   const location=useLocation()
   const handleLink = () => {
     window.scrollTo(0, 0);
-    setToggleMenu(!toggleMenu);
+    setToggleMenu(false);
   };
 
   return (
