@@ -5,7 +5,7 @@ import CollectionSlider from "../../../components/CollectionSlider";
 
 const ImageSlider = () => {
   const { width } = useWidth();
-  return (
+  return (  
     <div className={styles.furnitureImageBlock}>
       {width > 500 ? (
         <div className={styles.imageCollection}>

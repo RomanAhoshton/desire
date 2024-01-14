@@ -35,11 +35,12 @@
 }
 
 .imageItem{
-    width: 100%;
-    height: 100%;
+    min-width: auto;
+    min-height: auto;
    
     img{
-        width: 350px;
-        height: 350px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }

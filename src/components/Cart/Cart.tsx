@@ -1,8 +1,14 @@
+import { CART } from "../../constants/routes";
+import { useCart } from "../../hooks/useCart";
 import styles from "./index.module.scss";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
+  const navigate = useNavigate();
+
+  const { cart } = useCart();
   return (
-    <button className={styles.cart}>
+    <button className={styles.cart} onClick={() => navigate(CART)}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="40"
@@ -17,7 +23,7 @@ const Cart = () => {
           fill="rgba(54, 56, 56, 0.9)"
         />
       </svg>
-      <span>0</span>
+      <span>{cart.length}</span>
     </button>
   );
 };

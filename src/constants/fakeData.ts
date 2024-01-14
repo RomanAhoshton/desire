@@ -1,121 +1,119 @@
-import {  v4 as uuid } from 'uuid';
- 
- 
- export const Chairs = [
+import { v4 as uuid } from "uuid";
+import { chairs, sofa, table,HomeSlides } from "../images";
 
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/fox-000ca-manager-chaIr-796.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/lotus-000c-manager-chaIr-284.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/pIedra-000c-manager-chaIr-635.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/style-000c-manager-chaIr-92.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/casanova-000n-manager-chaIr-150.jpg',
-        id:uuid(),
-    },
+export const HomeSliderData = [
+  {
+ 
+    link: HomeSlides.one,
+    id: uuid(),
+  },
+  {
+   
+    link: HomeSlides.two,
+    id: uuid(),
+  },
+  {
+  
+    link: HomeSlides.three,
+    id: uuid(),
+  },
+  {
+
+    link: HomeSlides.four,
+    id: uuid(),
+  },
 
 ];
 
-
 export const Goods = [
-
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/fox-000ca-manager-chaIr-796.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/lotus-000c-manager-chaIr-284.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/pIedra-000c-manager-chaIr-635.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/style-000c-manager-chaIr-92.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Chairs',
-        link:'https://www.gldofficefurniture.com/img/urunler/casanova-000n-manager-chaIr-150.jpg',
-        id:uuid(),
-    },
-
-    {
-        type:'Sofa',
-        link:'https://www.gldofficefurniture.com/img/urunler/athena-sofa-257.jpg',
-        id:uuid(),
-
-    },
-    {
-        type:'Sofa',
-        link:'https://www.gldofficefurniture.com/img/urunler/sImena-906.jpg',
-        id:uuid(),
-
-    },
-    {
-        type:'Sofa',
-        link:'https://www.gldofficefurniture.com/img/urunler/prada-857.jpg',
-        id:uuid(),
-
-    },
-    {
-        type:'Sofa',
-        link:'https://www.gldofficefurniture.com/img/urunler/west-plus-995.jpg',
-        id:uuid(),
-
-    },
-    {
-        type:'Sofa',
-        link:'https://www.gldofficefurniture.com/img/urunler/elena-805.jpg',
-        id:uuid(),
-
-    },
-
-    {
-        type:'Table',
-        link:'https://www.gldofficefurniture.com/img/urunler/eko-l-desk-wIth-two-layer-knockdown-drawer-92.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Table',
-        link:'https://www.gldofficefurniture.com/img/urunler/leda-desk-wIth-etagere-101.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Table',
-        link:'https://www.gldofficefurniture.com/img/urunler/alara-desk-235.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Table',
-        link:'https://www.gldofficefurniture.com/img/urunler/motto-desk-wIth-etagere-891.jpg',
-        id:uuid(),
-    },
-    {
-        type:'Table',
-        link:'https://www.gldofficefurniture.com/img/urunler/mystIc-desk-wIth-etagere-213.jpg',
-        id:uuid(),
-    },
-  
-
+  {
+    type: "Chairs",
+    link: chairs.one,
+    id: uuid(),
+    price: 150, // USD
+  },
+  {
+    type: "Chairs",
+    link: chairs.two,
+    id: uuid(),
+    price: 200, // USD
+  },
+  {
+    type: "Chairs",
+    link: chairs.three,
+    id: uuid(),
+    price: 180, // USD
+  },
+  {
+    type: "Chairs",
+    link: chairs.four,
+    id: uuid(),
+    price: 250, // USD
+  },
+  {
+    type: "Chairs",
+    link: chairs.five,
+    id: uuid(),
+    price: 220, // USD
+  },
+  {
+    type: "Sofa",
+    link: sofa.one,
+    id: uuid(),
+    price: 500, // USD
+  },
+  {
+    type: "Sofa",
+    link: sofa.two,
+    id: uuid(),
+    price: 450, // USD
+  },
+  {
+    type: "Sofa",
+    link: sofa.three,
+    id: uuid(),
+    price: 600, // USD
+  },
+  {
+    type: "Sofa",
+    link: sofa.four,
+    id: uuid(),
+    price: 550, // USD
+  },
+  {
+    type: "Sofa",
+    link: sofa.five,
+    id: uuid(),
+    price: 480, // USD
+  },
+  {
+    type: "Table",
+    link: table.one,
+    id: uuid(),
+    price: 300, // USD
+  },
+  {
+    type: "Table",
+    link: table.two,
+    id: uuid(),
+    price: 350, // USD
+  },
+  {
+    type: "Table",
+    link: table.three,
+    id: uuid(),
+    price: 320, // USD
+  },
+  {
+    type: "Table",
+    link: table.four,
+    id: uuid(),
+    price: 380, // USD
+  },
+  {
+    type: "Table",
+    link: table.five,
+    id: uuid(),
+    price: 400, // USD
+  },
 ];

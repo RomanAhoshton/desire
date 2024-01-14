@@ -5,7 +5,7 @@ import {
   footerPinterest,
   footerYoutube,
   footerWhatsApp,
-  HowWorksImages
+  HowWorksImages,
 } from "../images";
 
 import { HOME, ABOUT, GALLERY, CONTACT } from "./routes";
@@ -95,8 +95,16 @@ export const howItWorks = [
     description: "Everyday carry actually neutra authentic kogi shabby chic",
   },
   {
-    image:HowWorksImages.third,
-    title:'Measurements',
-    description:'Intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche'
+    image: HowWorksImages.third,
+    title: "Measurements",
+    description:
+      "Intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche",
   },
+];
+
+export const filteringButton = [
+  { type: "Chairs" },
+  { type: "Sofa" },
+  { type: "Table" },
+  { type: "All" },
 ];

@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
 import { Carousel as BannerCarousel } from "react-responsive-carousel";
-import { Chairs } from "../../constants/fakeData";
+import { HomeSliderData } from "../../constants/fakeData";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { SliderBg } from "../../images";
 
@@ -33,8 +33,8 @@ const BannerSlider = () => {
         //   />
         // )}
       >
-        {Chairs.map((item, index) => (
-          <div key={index} className={styles.imageItem}>
+        {HomeSliderData.map((item) => (
+          <div key={item.id} className={styles.imageItem}>
             <img src={item.link} alt="slider" />
           </div>
         ))}

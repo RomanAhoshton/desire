@@ -1,3 +1,54 @@
-.gallery{
-    margin-top: 90px;
+.gallery {
+  margin-top: 90px;
+  padding: 20px;
+  margin-bottom: 80px;
+
+  .filteringButtons {
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
+    gap: 15px;
+    @media (max-width:768px) {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      
+    }
+  }
+
+  .goodsContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filteringB {
+    color: #8f8d8d;
+    background-color: white;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 20px;
+    border: 1px solid #454647;
+    opacity: 0.5;
+    width: 140px;
+  }
+
+  .filteringActive {
+    color: #363838;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 20px;
+    background: #ffef35;
+    width: 140px;
+  }
 }
