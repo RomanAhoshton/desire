@@ -7,8 +7,13 @@ const Cart = () => {
   const navigate = useNavigate();
 
   const { cart } = useCart();
+
+  const handleCart=()=>{
+    navigate(CART)
+    window.scrollTo(0, 0);
+  }
   return (
-    <button className={styles.cart} onClick={() => navigate(CART)}>
+    <button className={styles.cart} onClick={handleCart}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="40"
